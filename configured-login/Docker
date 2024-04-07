@@ -1,0 +1,5 @@
+FROM openjdk:21
+MAINTAINER hth
+COPY build/libs/configured-login-0.0.1-SNAPSHOT.jar configured-login.jar
+ENTRYPOINT ["java","-jar","configured-login.jar"]
+HEALTHCHECK --interval=1m --timeout=3s CMD wget -q -T 3 -s http://localhost:8092/home/landing
