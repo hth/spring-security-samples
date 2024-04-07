@@ -35,8 +35,8 @@ public class SecurityHttpConfig {
                         )
                         .anyExchange().denyAll())
                 .formLogin(formLogin -> formLogin
-                        .authenticationSuccessHandler(new RedirectServerAuthenticationSuccessHandler("/home/landing"))
-                        .authenticationFailureHandler(new RedirectServerAuthenticationFailureHandler("/")));
+                        // Customize as per your needs.
+                        .authenticationSuccessHandler(new RedirectServerAuthenticationSuccessHandler("/home/landing")));
 
         return http.build();
     }
