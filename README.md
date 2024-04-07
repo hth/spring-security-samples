@@ -33,6 +33,6 @@ Everything `configured-login` does plus `jwt`.
 
 ### Referred Spring Docs
 
-https://docs.spring.io/spring-security/reference/reactive/configuration/webflux.html#_minimal_webflux_security_configuration
-https://docs.spring.io/spring-security/reference/reactive/configuration/webflux.html
-https://docs.spring.io/spring-security/reference/reactive/authorization/authorize-http-requests.html 
+- https://docs.spring.io/spring-security/reference/reactive/configuration/webflux.html#_minimal_webflux_security_configuration
+- https://docs.spring.io/spring-security/reference/reactive/configuration/webflux.html
+- https://docs.spring.io/spring-security/reference/reactive/authorization/authorize-http-requests.html 
